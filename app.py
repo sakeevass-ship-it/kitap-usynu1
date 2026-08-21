@@ -131,10 +131,4 @@ elif page == '📊 Нәтижелер':
     with open(SURVEY,'rb') as f:
         st.download_button('⬇️ Excel нәтижелерін жүктеу', f, file_name='survey_results.xlsx', mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet')
 
-with open(SURVEY, 'rb') as f:
-    st.download_button(
-        '⬇️ Excel нәтижелерін жүктеу',
-        f,
-        file_name='survey_results.xlsx',
-        mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-    )
+
